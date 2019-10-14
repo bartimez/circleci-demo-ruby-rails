@@ -20,6 +20,7 @@ references:
 
 jobs:
   build:
+    working_directory: ~/circleci-demo-ruby-rails
     docker:
       - *default_docker_ruby_executor
     steps:
